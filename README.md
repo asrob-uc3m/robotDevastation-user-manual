@@ -1,2 +1,3 @@
 # Robot Devastation User Manual
-Hello world!
+
+Robot Devastation User Manual
