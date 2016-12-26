@@ -1,6 +1,6 @@
 # Two robots
 
-Having followed the installation steps on the PCs of the players (gamer 1 PC and gamer 2PC) and that of a server (server PC):
+Having followed the installation steps on the PCs of the players (gamer 1 PC and gamer 2 PC) and that of a server (server PC):
 
 ```bash
 [server PC, terminal 1] yarp server
