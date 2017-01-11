@@ -3,7 +3,7 @@
 Un PC:
 
 * Nivel Básico: Para instalar y lanzar el juego en sí de Robot Devastation \(interfaz de movimiento, disparos, etc\), lo más sencillo es utilizar un PC con alguna versión de Ubuntu \([aquí un vídeo de cómo instalar Ubuntu 14.10]([https://www.youtube.com/watch?v=Iez8JyCd8ts)\).
-  * [Cómo instalar Robot Devastation sobre Ubuntu 14.10](http://asrob.uc3m.es/index.php/C%C3%B3mo_instalar_Robot_Devastation_sobre_Ubuntu_14.10).
+  * [Cómo instalar Robot Devastation sobre Ubuntu 14.10](instalar-robot-devastation.md).
 * Nivel Intermedio: Un usuario de nivel medio puede empezar por probar algún sistema operativo basado GNU/Linux Debian, Ubuntu o Linux Mint.
 * Nivel Avanzado: El código fuente del juego debe poder compilarse y ejecutarse sin problemas en cualquier sistema operativo basado en Linux, y en Mac y Windows también. Sin embargo, todavía no lo hemos logrado.
 
