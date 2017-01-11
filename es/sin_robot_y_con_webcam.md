@@ -1,4 +1,4 @@
-# Sin robot y con webcam del PC
+# L webcam del PC (sin robot)
 
 Habiendo seguido los pasos de instalación en el PC, abrir una terminal
 (en Ubuntu 10.04 - 14.10 y otras distribuciones, se puede acceder a una

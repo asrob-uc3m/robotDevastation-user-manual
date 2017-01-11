@@ -1,4 +1,4 @@
-# Dos robots
+# Lanzar Robot Devastation con dos robots
 
 Habiendo seguido los pasos de instalación en los PCs de los jugadores (PC gamer 1 y PC gamer 2) y el de un servidor (PC servidor):
 
