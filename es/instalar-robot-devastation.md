@@ -17,5 +17,5 @@ Estas instrucciones deberían servir para la mayoría de versiones de Ubuntu. Ab
  cd robotDevastation && mkdir build && cd build && cmake ..  # Configura Robot Devastation
  make  # Compila
  sudo make install  # Instala :-)
- sudo ldconfig  # Por si acaso... ;-))
+ sudo ldconfig  # Por si acaso... ;-)
 ```
