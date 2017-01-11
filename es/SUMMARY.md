@@ -1,7 +1,7 @@
 # Summary
 
 * [Introducción](README.md)
-* [Instalar Robot Devastation](instalar-robot-devastation.md)
+* [Instalar Robot Devastation](install-robot-devastation.md)
     * [PC](instalar-robot-devastation---PC.md)
     * [Robots](instalar-robot-devastation---robots.md)
 * [Lanzar Robot Devastation](lanzar-robot-devastation.md)
