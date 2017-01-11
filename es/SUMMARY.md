@@ -2,8 +2,8 @@
 
 * [Introducción](README.md)
 * [Instalar Robot Devastation](install-robot-devastation.md)
-    * [PC](instalar-robot-devastation---PC.md)
-    * [Robots](instalar-robot-devastation---robots.md)
+    * [PC](install-robot-devastation---pc.md)
+    * [Robots](install-robot-devastation---robots.md)
 * [Lanzar Robot Devastation](lanzar-robot-devastation.md)
     * [Sin robot](sin_robot.md)
     * [Con webcam del PC \(sin robot\)](sin_robot_y_con_webcam.md)
