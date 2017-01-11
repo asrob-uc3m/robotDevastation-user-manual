@@ -1,4 +1,4 @@
-# Más acanzado: ¿Qué necesito?
+# Más avanzado: ¿Qué necesito?
 
 Un PC:
 
