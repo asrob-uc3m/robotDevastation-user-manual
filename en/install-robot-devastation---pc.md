@@ -17,7 +17,7 @@ These instructions should work for most versions of Ubuntu. Open a terminal (in 
  make -j3 && sudo make install && sudo ldconfig && cd ../..
  git clone https://github.com/asrob-uc3m/robotDevastation.git  # Download Robot Devastation
  cd robotDevastation && mkdir build && cd build && cmake ..  # Configure Robot Devastation
- make  # Compila
- sudo make install  # Instala :-)
- sudo ldconfig  # Por si acaso... ;-)
+ make  # Compile
+ sudo make install  # Install :-)
+ sudo ldconfig  # Just in case... ;-)
 ```
