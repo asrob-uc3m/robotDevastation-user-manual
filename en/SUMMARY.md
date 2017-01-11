@@ -4,7 +4,7 @@
 * [Install Robot Devastation](install-robot-devastation.md)
     * [PC](install-robot-devastation---pc.md)
     * [Robots](install-robot-devastation---robots.md)
-* Launch Robot Devastation
+* [Launch Robot Devastation](launch-robot-devastation.md)
 * [Without Any Robot](without_any_robot.md)
 * [One Robot](one_robot.md)
 * [Without Any Robot And With Webcam](without_any_robot_and_with_webcam.md)
