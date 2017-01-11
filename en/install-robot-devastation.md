@@ -2,5 +2,5 @@
 
 Below are guides to install Robot Devastation.
 
-* [PC](instalar-robot-devastation---PC.md)
-* [Robots](instalar-robot-devastation---robots.md)
+* [PC](install-robot-devastation---pc.md)
+* [Robots](install-robot-devastation---robots.md)
