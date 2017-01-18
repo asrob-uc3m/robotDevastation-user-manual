@@ -1,4 +1,4 @@
-# Lanzar Robot Devastation - con webcam del PC (sin robot)
+# Lanzar Robot Devastation - Sin robot y con webcam del PC
 
 Habiendo seguido los pasos de instalación en el PC, abrir una terminal
 (en Ubuntu 10.04 - 16.04 y otras distribuciones, se puede acceder a una
