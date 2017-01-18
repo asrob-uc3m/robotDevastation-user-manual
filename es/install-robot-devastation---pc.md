@@ -4,6 +4,7 @@ Estas instrucciones deberían servir para la mayoría de versiones de Ubuntu. Ab
 ```bash
  sudo apt-get install cmake cmake-curses-gui libzbar-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev build-essential libace-dev git
  sudo apt-get install libgtkmm-2.4-dev  # Sólo necesario para YARP GUIs de depuración: yarpview, gyarpmanager
+ sudo apt-get install qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qtdeclarative5-qtquick2-plugin qtdeclarative5-window-plugin qtdeclarative5-qtmultimedia-plugin qtdeclarative5-controls-plugin qtdeclarative5-dialogs-plugin libqt5svg5
  sudo apt-get install libjpeg8-dev  # Sólo necesario para mjpeg que acelera comunicaciones de vídeo
  sudo apt-get install libopencv-dev  # Sólo necesario para webcam del PC
  git clone https://github.com/robotology/yarp
