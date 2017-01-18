@@ -6,8 +6,8 @@
     * [Robots](install-robot-devastation---robots.md)
 * [Launch Robot Devastation](launch-robot-devastation.md)
     * [Without Any Robot](launch-robot-devastation---without-any-robot.md)
-    * [With One Robot](one_robot.md)
-    * [Without Any Robot And With Webcam](without_any_robot_and_with_webcam.md)
-    * [With Two Robots](two_robots.md)
+    * [With One Robot](launch-robot-devastation---with-one-robot.md)
+    * [Without Any Robot And With Webcam](launch-robot-devastation---with-webcam.md)
+    * [With Two Robots](launch-robot-devastation---with-two-robots.md)
 * [What do I need?](what_do_i_need.md)
 
