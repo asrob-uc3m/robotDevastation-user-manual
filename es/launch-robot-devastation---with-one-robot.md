@@ -1,4 +1,4 @@
-# Lanzar Robot Devastation con un robot
+# Lanzar Robot Devastation - con un robot
 
 Habiendo seguido los pasos de instalación en el PC, abrir una terminal (en Ubuntu 10.04 - 16.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`) y ejecuta (teclear y `enter`):
 
