@@ -11,6 +11,7 @@ cd wiringPi
 
 Install robotDevastation-robots
 ```bash
+sudo apt-get install libserial-dev # For LaserTowerOfDeathController
 git clone https://github.com/asrob-uc3m/robotDevastation-robots.git # Download Robot Devastation - Robots
 cd robotDevastation-robots && mkdir build && cd build && cmake .. # Configure Robot Devastation - Robots
 make # Compile
