@@ -2,7 +2,7 @@
 
 A continuación guías para lanzar Robot Devastation.
 
-* [Sin robot](sin_robot.md)
-* [Con webcam del PC \(sin robot\)](sin_robot_y_con_webcam.md)
-* [Con un robot](un_robot.md)
-* [Con dos robots](dos_robots.md)
+* [Sin robot](launch-robot-devastation---without-any-robot.md)
+* [Con webcam del PC \(sin robot\)](launch-robot-devastation---with-webcam.md)
+* [Con un robot](launch-robot-devastation---with-one-robot.md)
+* [Con dos robots](launch-robot-devastation---with-two-robots.md)
