@@ -1,4 +1,4 @@
-# Two Robots
+# Launch Robot Devastation - With Two Robots
 
 Having followed the installation steps on the PCs of the players (gamer 1 PC and gamer 2 PC) and that of a server (server PC):
 
