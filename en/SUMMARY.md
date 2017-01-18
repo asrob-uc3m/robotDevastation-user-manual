@@ -5,7 +5,7 @@
     * [PC](install-robot-devastation---pc.md)
     * [Robots](install-robot-devastation---robots.md)
 * [Launch Robot Devastation](launch-robot-devastation.md)
-    * [Without Any Robot](en/launch-robot-devastation---without-any-robot.md)
+    * [Without Any Robot](launch-robot-devastation---without-any-robot.md)
     * [With One Robot](one_robot.md)
     * [Without Any Robot And With Webcam](without_any_robot_and_with_webcam.md)
     * [With Two Robots](two_robots.md)
