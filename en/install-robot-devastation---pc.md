@@ -4,6 +4,7 @@ These instructions should work for most versions of Ubuntu. Open a terminal (in 
 
 ```bash
 cd  # goes to $HOME
+sudo apt-get update # update the apt-get database
 sudo apt-get install cmake cmake-curses-gui libzbar-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev build-essential libace-dev git
 sudo apt-get install libgtkmm-2.4-dev  # Only required for YARP debug GUIs: yarpview, gyarpmanager
 sudo apt-get install qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qtdeclarative5-qtquick2-plugin qtdeclarative5-window-plugin qtdeclarative5-qtmultimedia-plugin qtdeclarative5-controls-plugin qtdeclarative5-dialogs-plugin libqt5svg5
