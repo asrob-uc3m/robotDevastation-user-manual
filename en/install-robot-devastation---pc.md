@@ -3,7 +3,7 @@
 These instructions should work for most versions of Ubuntu. Open a terminal (in Ubuntu 10.04 - 16.04 and other distributions, you can access a console through the combination of the three keys `CTRL` `ALT` `t`) and execute (type `enter` after each line, Accepting everything and entering password when requested):
 
 ```bash
-cd  # goes to $HOME
+cd  # go $HOME
 sudo apt-get update # update the apt-get database
 sudo apt-get install cmake cmake-curses-gui libzbar-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev build-essential libace-dev git
 sudo apt-get install libgtkmm-2.4-dev  # Only required for YARP debug GUIs: yarpview, gyarpmanager
