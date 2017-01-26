@@ -2,7 +2,8 @@
 
 * [Introduction](README.md)
 * [Install Robot Devastation](install-robot-devastation.md)
-    * [PC](install-robot-devastation---pc.md)
+    * [PC (Ubuntu)](install-robot-devastation-ubuntu---pc.md)
+    * [PC (Windows)](install-robot-devastation-windows---pc.md)
     * [Robots](install-robot-devastation---robots.md)
 * [Launch Robot Devastation](launch-robot-devastation.md)
     * [Without Any Robot](launch-robot-devastation---without-any-robot.md)

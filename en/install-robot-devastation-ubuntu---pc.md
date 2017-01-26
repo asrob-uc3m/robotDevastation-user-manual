@@ -1,6 +1,6 @@
-# Install Robot Devastation - PC
+# Install Robot Devastation - PC (Ubuntu)
 
-These instructions should work for most versions of Ubuntu. Open a terminal (in Ubuntu 10.04 - 16.04 and other distributions, you can access a console through the combination of the three keys `CTRL` `ALT` `t`) and execute (type `enter` after each line, Accepting everything and entering password when requested):
+These instructions should work for most versions of Ubuntu. Open a terminal (in Ubuntu 10.04 - 16.04 and other distributions, you can access a console through the combination of the three keys `CTRL` `ALT` `t`) and execute (type `enter` after each line, accepting everything and entering password when requested):
 
 ```bash
 cd  # go $HOME
