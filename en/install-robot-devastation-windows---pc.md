@@ -15,6 +15,7 @@ YARP communications rely on [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Do
 YARP code is hosted on [GitHub](https://github.com/robotology/yarp). You can download the source code by clicking [here](https://github.com/robotology/yarp/archive/master.zip), or clone the repository in your local machine with the help of your preferred Git client.
 
 Now, configure the VS project:
+
 1. Run the CMake GUI application.
 2. Point the *Where is the source code* path to the folder where you have decompressed/cloned YARP.
 3. Point the *Where to build the binaries* path to a `/build` subfolder of the previous directory.

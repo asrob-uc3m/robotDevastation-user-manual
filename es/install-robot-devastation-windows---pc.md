@@ -15,6 +15,7 @@ El protocolo de comunicaciones de YARP está basado en [ACE](http://www.cs.wustl
 El código de YARP reside en [GitHub](https://github.com/robotology/yarp). Puedes descargarlo pulsando [aquí](https://github.com/robotology/yarp/archive/master.zip), o clonar el repositorio localmente con ayuda de tu cliente Git preferido.
 
 Ahora, configura el proyecto VS:
+
 1. Ejecuta la aplicación GUI de CMake.
 2. En *Where is the source code*, indica la ruta al directorio donde has descomprimido/clonado YARP.
 3. En *Where to build the binaries*, indica la ruta a un subdirectorio `/build` dentro del directorio anterior.
