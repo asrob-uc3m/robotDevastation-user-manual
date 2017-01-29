@@ -44,6 +44,10 @@ Lanza CMake GUI y sigue los puntos del 1 al 3 en [#Descargar y compilar YARP des
 
 La ubicación de las librerías dinámicas (archivos con la extensión *.dll*) listadas como dependencias deberían ser añadidas a la variable de entorno *PATH* para poder enlazarlas en tiempo de ejecución con los programas de YARP y RD (ficheros *.exe*). Esta configuración se puede ajustar en *Equipo>Propiedades>Configuración avanzada del sistema>Opciones avanzadas>Variables de entorno*. Alternativamente, puedes simplemente copiar todos los DLLs y pegarlos en los mismos directorios donde están ubicados los ejecutables.
 
+## Configurar los directorios de datos de YARP
+
+YARP necesita localizar los recursos y ficheros de configuración de RD. Para ello, crea la variable de entorno *YARP_DATA_DIRS* (ver sección anterior) y ajusta su valor a la ruta absoluta que lleva a `/share/rd` dentro del directorio de compilación o instalación de Robot Devastation.
+
 ## Problemas conocidos y observaciones
 
 ZBar viene acompañado de una librería *zlib1.dll* obsoleta, puedes encontrar una versión más reciente entre los binarios de SDL2. Recuerda que debes omitir este archivo al copiar todos los DLL al directorio donde están ubicados los ejecutables, o mover la ruta donde se encuentra esta librería para situarla a continuación de las rutas de SDL2 en la variable de entorno *PATH*, dependiendo de tu elección en la sección anterior.

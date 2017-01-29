@@ -44,6 +44,10 @@ Run CMake GUI and follow points 1 to 3 from [#Download and compile YARP from sou
 
 Locations of dependent dynamic libraries (files with the *.dll* extension) should be appended to the *PATH* environment variable in order to link them at run time when YARP and the RD programs (as *.exe* files) are launched. This configuration can be set on *Computer>System properties>Advanced system settings>Advanced>Environment Variables*. Alternatively, you may just copy all DLLs and paste them in the same directories the executables are located in.
 
+## Configure YARP data directories
+
+YARP needs to locate RD resources and configuration files. To achieve that, add the *YARP_DATA_DIRS* environment variable (see previous section) and set its value to the absolute path that leads to `/share/rd` in your build or installation directory of Robot Devastation.
+
 ## Known issues and remarks
 
 ZBar is shipped with an outdated *zlib1.dll* library, a more recent one can be found in the bundles SDL2 comes with. Remember to omit this file when copying all DLLs to the directory where the executables are placed in, or move its location path after SDL2 in the *PATH* environment variable, depending on your preference as explained in the previous section.
