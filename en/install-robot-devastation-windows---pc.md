@@ -10,6 +10,8 @@ RD software is designed around YARP. In case you installed Visual Studio 2013, y
 
 YARP communications rely on [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Download the latest *micro* release of ACE from [here](http://download.dre.vanderbilt.edu/), TAO is not required. Follow the instructions at [Building and Installing ACE on Windows with Microsoft Visual Studio](http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#msvc). Remember to select the *Release WIN32* configuration in VS.
 
+**Note:** we recommend to launch the *ACE_wrappers* solution (depending on your Visual Studio toolset, you'll choose either *ACE_wrappers_vc12.sln* or *ACE_wrappers_vc14.sln*) instead of *ACE* since the former will prevent you from compiling a lot of binaries you probably won't need, thus reducing the overall build time.
+
 ## Download and compile YARP from sources
 
 YARP code is hosted on [GitHub](https://github.com/robotology/yarp). You can download the source code by clicking [here](https://github.com/robotology/yarp/archive/master.zip), or clone the repository in your local machine with the help of your preferred Git client.
