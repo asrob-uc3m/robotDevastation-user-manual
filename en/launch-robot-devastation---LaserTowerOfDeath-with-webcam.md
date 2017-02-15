@@ -15,7 +15,7 @@ rdServer
 In another new terminal, run:
 
 ```bash
-yarpdev --device LaserTowerOfDeath --name /laserTowerOfDeath
+yarpdev --device LaserTowerOfDeathController --name /laserTowerOfDeath
 ```
 
 In yet another new terminal, run:
