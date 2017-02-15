@@ -12,13 +12,13 @@ En una nueva terminal, ejecutar:
 rdServer
 ```
 
-En otra nueva terminal, ejecutarn:
+En otra nueva terminal, ejecutar:
 
 ```bash
 yarpdev --device FakeMotorController --name /rd2
 ```
 
-In yet another new terminal, run:
+En otra nueva terminal más, ejecutar:
 
 ```bash
 robotDevastation --robotName rd2 --yarpLocalImageManager
