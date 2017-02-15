@@ -1,6 +1,6 @@
 # Lanzar Robot Devastation - Con motores falsos y con webcam del PC
 
-Having followed the PC installation steps, open a terminal \(on Ubuntu 10.04 - 14.10 and other distributions, a console can be accessed through the combination of the three simultaneous keys `CTRL ALT t`\) and run \(write and press `enter`\):
+Habiendo seguido los pasos de instalación en el PC, abrir una terminal \(en Ubuntu 10.04 - 16.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`\) y ejecuta \(teclear y `enter`\):
 
 ```bash
 yarp server
