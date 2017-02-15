@@ -12,7 +12,7 @@ En una nueva terminal, ejecutar:
 rdServer
 ```
 
-In another new terminal, run:
+En otra nueva terminal, ejecutarn:
 
 ```bash
 yarpdev --device FakeMotorController --name /rd2
