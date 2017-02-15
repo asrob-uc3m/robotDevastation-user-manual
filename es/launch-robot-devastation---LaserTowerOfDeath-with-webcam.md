@@ -15,19 +15,19 @@ rdServer
 En otra nueva terminal, ejecutar:
 
 ```bash
-yarpdev --device FakeMotorController --name /fakeMotors
+yarpdev --device LaserTowerOfDeath --name /laserTowerOfDeath
 ```
 
 En otra nueva terminal más, ejecutar:
 
 ```bash
-robotDevastation --robotName fakeMotors --yarpLocalImageManager
+robotDevastation --robotName laserTowerOfDeath --yarpLocalImageManager
 ```
 
 This command with the experimental full-screen mode would be:
 
 ```bash
-robotDevastation --robotName fakeMotors --yarpLocalImageManager --fullscreen
+robotDevastation --robotName laserTowerOfDeath --yarpLocalImageManager --fullscreen
 ```
 
 
