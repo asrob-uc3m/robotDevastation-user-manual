@@ -1,6 +1,6 @@
 # Lanzar Robot Devastation - Con LaserTowerOfDeath y webcam
 
-Habiendo seguido los pasos de instalación en el PC y **Robots**, abrir una terminal \(en Ubuntu 10.04 - 16.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`\) y ejecuta \(teclear y `enter`\):
+Habiendo seguido los pasos de instalación en el PC y **Robots**, abrir una terminal (en Ubuntu 10.04 - 16.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`) y ejecuta (teclear y `enter`):
 
 ```bash
 yarp server
