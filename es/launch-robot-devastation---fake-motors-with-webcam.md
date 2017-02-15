@@ -6,7 +6,7 @@ Habiendo seguido los pasos de instalación en el PC, abrir una terminal \(en Ubu
 yarp server
 ```
 
-In a new terminal, run:
+En una nueva terminal, ejecutar:
 
 ```bash
 rdServer
