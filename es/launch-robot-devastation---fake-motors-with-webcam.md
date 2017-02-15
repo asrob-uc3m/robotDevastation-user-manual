@@ -15,19 +15,19 @@ rdServer
 En otra nueva terminal, ejecutar:
 
 ```bash
-yarpdev --device FakeMotorController --name /rd2
+yarpdev --device FakeMotorController --name /fakeMotors
 ```
 
 En otra nueva terminal más, ejecutar:
 
 ```bash
-robotDevastation --robotName rd2 --yarpLocalImageManager
+robotDevastation --robotName fakeMotors --yarpLocalImageManager
 ```
 
 This command with the experimental full-screen mode would be:
 
 ```bash
-robotDevastation --robotName rd2 --yarpLocalImageManager --fullscreen
+robotDevastation --robotName fakeMotors --yarpLocalImageManager --fullscreen
 ```
 
 
