@@ -1,6 +1,6 @@
 # Launch Robot Devastation - With Fake Motors And With PC Webcam
 
-Having followed the PC installation steps, open a terminal \(on Ubuntu 10.04 - 14.10 and other distributions, a console can be accessed through the combination of the three simultaneous keys `CTRL ALT t`\) and run \(write and press `enter`\):
+Having followed the PC y and **Robots** installation steps, open a terminal \(on Ubuntu 10.04 - 14.10 and other distributions, a console can be accessed through the combination of the three simultaneous keys `CTRL ALT t`\) and run \(write and press `enter`\):
 
 ```bash
 yarp server
