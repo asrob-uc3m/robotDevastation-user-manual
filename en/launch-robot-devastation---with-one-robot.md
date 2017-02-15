@@ -1,4 +1,4 @@
-# Launch Robot Devastation - With One Robot
+# Launch Robot Devastation - With One Remote Robot
 
 Having followed the PC installation steps, open a terminal (on Ubuntu 10.04 - 14.10 and other distributions, a console can be accessed through the combination of the three simultaneous keys `CTRL ALT t`) and run (write and press `enter`):
 
