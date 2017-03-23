@@ -15,13 +15,13 @@ rdServer
 En otra nueva terminal, ejecutar:
 
 ```bash
-robotDevastation --mockupRobotManager --yarpLocalImageManager
+robotDevastation --mockRobotManager --yarpLocalImageManager
 ```
 
 Este comando con el modo experimental a pantalla completa sería:
 
 ```bash
-robotDevastation --mockupRobotManager --yarpLocalImageManager --fullscreen
+robotDevastation --mockRobotManager --yarpLocalImageManager --fullscreen
 ```
 
 

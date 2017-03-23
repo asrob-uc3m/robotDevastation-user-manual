@@ -15,5 +15,5 @@ rdServer
 En otra nueva terminal, ejecutar:
 
 ```bash
-robotDevastation --mockupRobotManager --mockupImageManager
+robotDevastation --mockRobotManager --mockImageManager
 ```
