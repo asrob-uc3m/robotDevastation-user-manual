@@ -33,9 +33,9 @@ In Visual Studio, select the *Release* configuration and compile the solution. T
 
 RD depends on the following libraries:
 * [SDL 2.0](https://www.libsdl.org/index.php) ([downloads page](https://www.libsdl.org/download-2.0.php), [direct link](https://www.libsdl.org/release/SDL2-devel-2.0.5-VC.zip))
-* [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/) ([download link](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-2.0.1.zip))
-* [SDL_mixer 2.0](https://www.libsdl.org/projects/SDL_mixer/) ([download link](https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.1.zip))
-* [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/) ([download link](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.14.zip))
+* [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/) ([download link](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.1-VC.zip))
+* [SDL_mixer 2.0](https://www.libsdl.org/projects/SDL_mixer/) ([download link](https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.1-VC.zip))
+* [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/) ([download link](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip))
 * [ZBar](http://zbar.sourceforge.net/) ([download link](https://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10-setup.exe/download))
 
 Unzip/install these libraries in the locations of your choice, you'll need these paths later on.
