@@ -36,7 +36,7 @@ RD depende de las siguientes librerías:
 * [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/) ([enlace de descarga](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.1-VC.zip))
 * [SDL_mixer 2.0](https://www.libsdl.org/projects/SDL_mixer/) ([enlace de descarga](https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.1-VC.zip))
 * [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/) ([enlace de descarga](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip))
-* [ZBar](http://zbar.sourceforge.net/) ([enlace de descarga](https://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10-setup.exe/download))
+* [ZBar](http://zbar.sourceforge.net/) ([enlace de descarga](https://sourceforge.net/projects/zbar/files/latest/download))
 
 Descomprime/instala estas librerías en las rutas de tu elección, las necesitarás más adelante.
 
