@@ -8,7 +8,7 @@ El software de RD está diseñado en torno a YARP. Si has instalado Visual Studi
 
 ## Descargar y compilar ACE desde el código fuente
 
-El protocolo de comunicaciones de YARP está basado en [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Descarga la última release *micro* de ACE desde [aquí](http://download.dre.vanderbilt.edu/), TAO no es necesario. Sigue las instrucciones en [Building and Installing ACE on Windows with Microsoft Visual Studio](http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#msvc). Recuerda seleccionar la configuración *Release WIN32* dentro de Visual Studio.
+El protocolo de comunicaciones de YARP está basado en [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Descarga la última release *micro* de ACE desde [aquí](http://download.dre.vanderbilt.edu/), TAO no es necesario. Sigue las instrucciones en [Building and Installing ACE on Windows with Microsoft Visual Studio](http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#msvc). Recuerda seleccionar la configuración *Release Win32* dentro de Visual Studio.
 
 **Nota:** recomendamos lanzar la solución *ACE_wrappers* (en función del toolset de Visual Studio instalado, escogerás *ACE_wrappers_vc12.sln* o *ACE_wrappers_vc14.sln*) en lugar de *ACE* dado que la primera evitará que compiles un gran número de binarios que probablemente no vayas a necesitar, consiguiendo así reducir el tiempo total de compilación.
 
@@ -36,7 +36,7 @@ RD depende de las siguientes librerías:
 * [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/) ([enlace de descarga](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.1-VC.zip))
 * [SDL_mixer 2.0](https://www.libsdl.org/projects/SDL_mixer/) ([enlace de descarga](https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.1-VC.zip))
 * [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/) ([enlace de descarga](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip))
-* [ZBar](http://zbar.sourceforge.net/) ([enlace de descarga](https://sourceforge.net/projects/zbar/files/latest/download))
+* [ZBar](http://zbar.sourceforge.net/) ([enlace de descarga](https://sourceforge.net/projects/zbar/files/latest/download), [mirror de asrob-uc3m](https://github.com/asrob-uc3m/ZBar/releases/latest))
 
 Descomprime/instala estas librerías en las rutas de tu elección, las necesitarás más adelante.
 
@@ -56,4 +56,4 @@ YARP necesita localizar los recursos y ficheros de configuración de RD. Para el
 
 ZBar viene acompañado de una librería *zlib1.dll* obsoleta, puedes encontrar una versión más reciente entre los binarios de SDL2. Recuerda que debes omitir este archivo al copiar todos los DLL al directorio donde están ubicados los ejecutables, o mover la ruta donde se encuentra esta librería para situarla a continuación de las rutas de SDL2 en la variable de entorno *PATH*, dependiendo de tu elección en la sección anterior.
 
-Adicionalmente, los binarios de ZBar han sido compilados para arquitecturas de 32 bits. Por ello, no hemos recomendado compilar en 64 bits en los pasos anteriores. Para lograrlo, deberás [descargar el código fuente de ZBar](http://zbar.sourceforge.net/download.html) y compilar desde cero. 
+Adicionalmente, los binarios *oficiales* de ZBar han sido compilados para arquitecturas de 32 bits. Por ello, no hemos recomendado compilar en 64 bits en los pasos anteriores. Para lograrlo, puedes descargar el instalador correspondiente desde nuestro [mirror en GitHub](https://github.com/asrob-uc3m/ZBar/releases/latest).
