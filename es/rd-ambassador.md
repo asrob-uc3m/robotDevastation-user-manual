@@ -1,5 +1,6 @@
 # Rd Ambassador
 ![](/assets/RdAmbassador.jpg)
+![](/assets/RdAmbassador_back.jpg)
 
 ### Rd Ambassador - Contenidos
   * Propósito

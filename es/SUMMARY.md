@@ -15,7 +15,7 @@
 * [Más avanzado](what_do_i_need.md)
 * Robots
   * [Rd Ambassador](rd-ambassador.md)
-    * Propósito
+    * [Propósito](rd-ambassador/proposito.md)
     * Lista de Materiales
     * Montaje de la placa
     * Puesta en marcha
