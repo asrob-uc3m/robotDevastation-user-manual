@@ -18,6 +18,6 @@
     * [Propósito](rd-ambassador/proposito.md)
     * Diagrama de bloques
     * [Lista de Materiales](rd-ambassador/lista-de-materiales.md)
-    * Montaje de la placa
-    * Puesta en marcha
+    * [Montaje de la placa](rd-ambassador/montaje-de-la-placa.md)
+    * [Puesta en marcha](rd-ambassador/puesta-en-marcha.md)
 
