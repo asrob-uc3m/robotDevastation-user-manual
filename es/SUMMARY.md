@@ -16,6 +16,7 @@
 * Robots
   * [Rd Ambassador](rd-ambassador.md)
     * [Propósito](rd-ambassador/proposito.md)
+    * Diagrama de bloques
     * [Lista de Materiales](rd-ambassador/lista-de-materiales.md)
     * Montaje de la placa
     * Puesta en marcha
