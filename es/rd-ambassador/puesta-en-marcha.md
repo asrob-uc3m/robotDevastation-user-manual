@@ -16,5 +16,5 @@ Conectar la salida de potencia de la shield a la entrada de potencia de la Raspb
 ![](/assets/RdAmbassador_Pwr_out.jpg)
 ![](/assets/RdAmbassador_Pwr_in.jpg)
 
-Tras realizar esta conexión la Raspberry Pi debería bootear.
+Tras realizar esta conexión la Raspberry Pi debería *bootear*.
 
