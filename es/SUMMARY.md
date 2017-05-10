@@ -14,11 +14,9 @@
   * [Con dos robots  remotos](launch-robot-devastation---with-two-robots.md)
 * [Más avanzado](what_do_i_need.md)
 * Robots
-  * Rd Ambassador
+  * [Rd Ambassador](rd-ambassador.md)
     * Propósito
     * Lista de Materiales
     * Montaje de la placa
     * Puesta en marcha
-
-
 
