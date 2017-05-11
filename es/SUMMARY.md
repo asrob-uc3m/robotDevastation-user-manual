@@ -13,10 +13,10 @@
   * [Con un robot remoto](launch-robot-devastation---with-one-robot.md)
   * [Con dos robots  remotos](launch-robot-devastation---with-two-robots.md)
 * [Más avanzado](what_do_i_need.md)
-* Robots
+* [Robots](robots.md)
   * [Rd Ambassador](rd-ambassador.md)
     * [Propósito](rd-ambassador/proposito.md)
-    * Diagrama de bloques
+    * [Diagrama de bloques](rd-ambassador/diagrama-de-bloques.md)
     * [Lista de Materiales](rd-ambassador/lista-de-materiales.md)
     * [Montaje de la placa](rd-ambassador/montaje-de-la-placa.md)
     * [Puesta en marcha](rd-ambassador/puesta-en-marcha.md)
