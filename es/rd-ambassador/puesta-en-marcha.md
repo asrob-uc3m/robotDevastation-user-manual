@@ -9,12 +9,12 @@ Conectar la batería al conector de batería de la shield:
 ### Webcam y Adaptador WiFi
 Conectar a los USBs de la Raspberry Pi:
 
-![](/assets/RdAmbassador_wifi.jpg)
+![WiFi connector](/assets/RdAmbassador_wifi.jpg)
 
 ### Alimentación
 Conectar la salida de potencia de la shield a la entrada de potencia de la Raspberry Pi.
-![](/assets/RdAmbassador_Pwr_out.jpg)
-![](/assets/RdAmbassador_Pwr_in.jpg)
+![Power connector](/assets/RdAmbassador_Pwr_out.jpg)
+![Power connector](/assets/RdAmbassador_Pwr_in.jpg)
 
 Tras realizar esta conexión la Raspberry Pi debería *bootear*.
 
