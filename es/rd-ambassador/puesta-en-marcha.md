@@ -1,5 +1,5 @@
 # Puesta en marcha
-![](/assets/RdAmbassador.jpg)
+![RdAmbassador](/assets/RdAmbassador.jpg)
 
 ## Montaje y conexionado de elementos
 ### Batería
