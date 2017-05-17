@@ -4,7 +4,7 @@
 ## Montaje y conexionado de elementos
 ### Batería
 Conectar la batería al conector de batería de la shield:
-![](/assets/RdAmbassador_battery.jpg)
+![Battery connector](/assets/RdAmbassador_battery.jpg)
 
 ### Webcam y Adaptador WiFi
 Conectar a los USBs de la Raspberry Pi:
