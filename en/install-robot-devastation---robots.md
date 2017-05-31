@@ -19,3 +19,4 @@ sudo make install # Install :-)
 sudo ldconfig # Just in case... ;-)
 ```
 
+    Note: you can find Wiring Pi website (for Rd Ambassador) here: http://wiringpi.com/download-and-install/
