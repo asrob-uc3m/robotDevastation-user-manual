@@ -12,7 +12,6 @@
   * [Con LaserTowerOfDeath y webcam](launch-robot-devastation---LaserTowerOfDeath-with-webcam.md)
   * [Con un robot remoto](launch-robot-devastation---with-one-robot.md)
   * [Con dos robots  remotos](launch-robot-devastation---with-two-robots.md)
-* [Más avanzado](what_do_i_need.md)
 * [Robots](robots.md)
   * [Rd Ambassador](robots---rd-ambassador.md)
     * [Propósito](robots---rd-ambassador/proposito.md)
@@ -20,4 +19,5 @@
     * [Lista de Materiales](robots---rd-ambassador/lista-de-materiales.md)
     * [Montaje de la placa](robots---rd-ambassador/montaje-de-la-placa.md)
     * [Puesta en marcha](robots---rd-ambassador/puesta-en-marcha.md)
+* [Más avanzado](what_do_i_need.md)
 
