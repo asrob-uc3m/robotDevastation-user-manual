@@ -1,6 +1,6 @@
 # RD1
 
-<img src="Rd1.jpg" title="Rd1.jpg" alt="Rd1.jpg" width="400" />
+![RdAmbassador front view](../assets/RD1-800px.jpg)
 
 El robot RD1 es el de la figura. Dispone de los siguientes elementos.
 
