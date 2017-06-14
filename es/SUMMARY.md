@@ -19,7 +19,7 @@
     * [Lista de Materiales](robots---rd-ambassador/lista-de-materiales.md)
     * [Montaje de la placa](robots---rd-ambassador/montaje-de-la-placa.md)
     * [Puesta en marcha](robots---rd-ambassador/puesta-en-marcha.md)
-  * [Rd1](robots---rd1.md)
-  * [Rd2](robots---rd2.md)
+  * [RD1](robots---rd1.md)
+  * [RD2](robots---rd2.md)
 * [Más avanzado](what_do_i_need.md)
 
