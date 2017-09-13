@@ -14,11 +14,11 @@ cmake ..
 cmake .. -DCREATE_GUIS=ON  # Sólo necesario para YARP GUIs de depuración: yarpview, gyarpmanager
 cmake .. -DCREATE_OPTIONAL_CARRIERS=ON -DENABLE_yarpcar_mjpeg_carrier=ON  # Sólo necesario para mjpeg que acelera comunicaciones de vídeo
 cmake .. -DCREATE_DEVICE_LIBRARY_MODULES=ON -DENABLE_yarpmod_opencv_grabber=ON  # Sólo necesario para webcam del PC
-make -j3 && sudo make install && sudo ldconfig
+make -j$(nproc) && sudo make install && sudo ldconfig
 cd  # va a $HOME
 git clone https://github.com/asrob-uc3m/robotDevastation.git  # Descarga Robot Devastation
 cd robotDevastation && mkdir build && cd build && cmake ..  # Configura Robot Devastation
-make  # Compila
+make -j$(nproc)  # Compila
 sudo make install  # Instala :-)
 sudo ldconfig  # Por si acaso... ;-)
 ```
