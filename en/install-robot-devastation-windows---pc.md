@@ -4,7 +4,7 @@ First of all, you need a C++ compiler. You can download the latest Visual Studio
 
 ## Download and install YARP binaries
 
-RD software is designed around YARP. In case you installed Visual Studio 2013, you may just download precompiled binaries from the [YARP downloads page](http://www.yarp.it/installation_downloads.html) (select `MSVC12 x86`) and skip to [#Download and install additional dependencies](#download-and-install-additional-dependencies). If not, you'll need to compile ACE and YARP from sources.
+RD software is designed around YARP. In case you installed a recent version of Visual Studio, you may just download precompiled binaries from the [YARP downloads page](http://www.yarp.it/download.html) and skip to [#Download and install additional dependencies](#download-and-install-additional-dependencies). Alternatively, you may compile ACE and YARP from sources.
 
 ## Download and compile ACE from sources
 

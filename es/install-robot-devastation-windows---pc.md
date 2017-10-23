@@ -4,7 +4,7 @@ Para empezar, necesitarás un compilador de C++. Puedes descargar el último Vis
 
 ## Descargar e instalar binarios de YARP
 
-El software de RD está diseñado en torno a YARP. Si has instalado Visual Studio 2013, puedes descargar directamente los binarios precompilados de la [página de descargas de YARP](http://www.yarp.it/installation_downloads.html) (selecciona `MSVC12 x86`) y pasar al apartado [#Descargar e instalar dependencias adicionales](#descargar-e-instalar-dependencias-adicionales). En caso contrario, tendrás que compilar ACE y YARP desde el código fuente.
+El software de RD está diseñado en torno a YARP. Si has instalado una versión de Visual Studio reciente, puedes descargar directamente los binarios precompilados de la [página de descargas de YARP](http://www.yarp.it/download.html) y pasar al apartado [#Descargar e instalar dependencias adicionales](#descargar-e-instalar-dependencias-adicionales). Alternativamente, puedes compilar ACE y YARP desde el código fuente.
 
 ## Descargar y compilar ACE desde el código fuente
 
