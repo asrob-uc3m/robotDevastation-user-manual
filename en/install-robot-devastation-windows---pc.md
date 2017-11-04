@@ -32,10 +32,10 @@ In Visual Studio, select the *Release* configuration and compile the solution. T
 ## Download and install additional dependencies
 
 RD depends on the following libraries:
-* [SDL 2.0](https://www.libsdl.org/index.php) ([downloads page](https://www.libsdl.org/download-2.0.php), [direct link](https://www.libsdl.org/release/SDL2-devel-2.0.5-VC.zip))
-* [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/) ([download link](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.1-VC.zip))
-* [SDL_mixer 2.0](https://www.libsdl.org/projects/SDL_mixer/) ([download link](https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.1-VC.zip))
-* [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/) ([download link](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-devel-2.0.14-VC.zip))
+* [SDL 2.0](https://www.libsdl.org/index.php) ([downloads page](https://www.libsdl.org/download-2.0.php))
+* [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/)
+* [SDL_mixer 2.0](https://www.libsdl.org/projects/SDL_mixer/)
+* [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/)
 * [ZBar](http://zbar.sourceforge.net/) ([download link](https://sourceforge.net/projects/zbar/files/latest/download), [asrob-uc3m mirror](https://github.com/asrob-uc3m/ZBar/releases/latest))
 
 Unzip/install these libraries in the locations of your choice, you'll need these paths later on.
@@ -55,5 +55,7 @@ YARP needs to locate RD resources and configuration files. To achieve that, add 
 ## Known issues and remarks
 
 ZBar is shipped with an outdated *zlib1.dll* library, a more recent one can be found in the bundles SDL2 comes with. Remember to omit this file when copying all DLLs to the directory where the executables are placed in, or move its location path after SDL2 in the *PATH* environment variable, depending on your preference as explained in the previous section.
+
+If unzipping all SDL2 stuff to the same location (i.e. all headers go to a common `include` directory, DLLs to `lib` and so on), make sure that you always keep the most recent version when prompted to choose between files with the same name. This is motivated by another clash between different versions of *zlib1.dll* used by SDL2 projects (image and ttf).
 
 In addition, *official* ZBar binaries are compiled for 32-bit architectures. Thus, we did not recommend a 64-bit build in previous steps. If you want to achieve it anyway, you can download the corresponding installer from our [GitHub mirror](https://github.com/asrob-uc3m/ZBar/releases/latest).
