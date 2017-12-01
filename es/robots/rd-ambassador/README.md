@@ -1,6 +1,6 @@
 # Rd Ambassador
-![RdAmbassador front view](/assets/RdAmbassador.jpg)
-![RdAmbassador back view](/assets/RdAmbassador_back.jpg)
+![RdAmbassador front view](../../../assets/RdAmbassador.jpg)
+![RdAmbassador back view](../../../assets/RdAmbassador_back.jpg)
 
 ### Rd Ambassador - Contenidos
 * [Propósito](proposito.md)
