@@ -21,5 +21,5 @@
     * [Puesta en marcha](robots/rd-ambassador/puesta-en-marcha.md)
   * [RD1](robots/rd1.md)
   * [RD2](robots/rd2.md)
-* [Más avanzado](what_do_i_need.md)
+* [Más avanzado](what-do-i-need.md)
 
