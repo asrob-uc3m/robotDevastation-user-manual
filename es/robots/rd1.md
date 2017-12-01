@@ -21,8 +21,7 @@ posición (poder comandar una posición deseada de una rueda). El proceso
 de "trucar" servomotores permite que puedan rodar sin límites y ser
 controlados en velocidad (poder comandar una velocidad deseada de una
 rueda). [Esto es un enlace a una guía externa de cómo trucar
-servomotores.](http://elektronikadonbosco.blogspot.com.es/2012/08/como-trucar-servomotores-paso-paso.html)
-.
+servomotores.](http://elektronikadonbosco.blogspot.com.es/2012/08/como-trucar-servomotores-paso-paso.html).
 
 ## Imprimir en 3D la estructura y las ruedas
 
