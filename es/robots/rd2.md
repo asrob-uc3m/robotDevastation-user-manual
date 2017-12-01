@@ -1,4 +1,4 @@
-![Rd2.jpg](Rd2.jpg "Rd2.jpg")
+![RD2-800px.jpg](../../assets/RD2-800px.jpg)
 
 Atención: RD2 se encuentra en construción, la documentación podria no
 estar actualizada.
