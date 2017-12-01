@@ -1,4 +1,4 @@
-![Rd1.jpg](Rd1.jpg "Rd1.jpg")
+![RD1-800px.jpg](../../assets/RD1-800px.jpg)
 
 El robot RD1 es el de la figura. Dispone de los siguientes elementos.
 
