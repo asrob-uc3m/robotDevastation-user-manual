@@ -13,7 +13,7 @@
   * [Con un robot remoto](launch-robot-devastation/with-one-robot.md)
   * [Con dos robots  remotos](launch-robot-devastation/with-two-robots.md)
 * [Robots](robots/README.md)
-  * [Rd Ambassador](robots/rd-ambassador.md)
+  * [Rd Ambassador](robots/rd-ambassador/README.md)
     * [Propósito](robots/rd-ambassador/proposito.md)
     * [Diagrama de bloques](robots/rd-ambassador/diagrama-de-bloques.md)
     * [Lista de Materiales](robots/rd-ambassador/lista-de-materiales.md)
