@@ -1,10 +1,10 @@
 # Summary
 
 * [Introducción](README.md)
-* [Instalar Robot Devastation](install-robot-devastation.md)
-  * [PC \(Ubuntu\)](install-robot-devastation-ubuntu---pc.md)
-  * [PC \(Windows\)](install-robot-devastation-windows---pc.md)
-  * [Robots](install-robot-devastation---robots.md)
+* [Instalar Robot Devastation](install-robot-devastation/README.md)
+  * [PC \(Ubuntu\)](install-robot-devastation/pc-ubuntu.md)
+  * [PC \(Windows\)](install-robot-devastation/pc-windows.md)
+  * [Robots](install-robot-devastation/robots.md)
 * [Lanzar Robot Devastation](launch-robot-devastation.md)
   * [Sin robot](launch-robot-devastation---without-any-robot.md)
   * [Sin robot y con webcam del PC](launch-robot-devastation---with-webcam.md)
