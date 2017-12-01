@@ -1,6 +1,6 @@
 # RD2
 
-![RdAmbassador front view](/assets/RD2-800px.jpg)
+![RD2 front view](../../assets/RD2-800px.jpg)
 
 Atención: RD2 se encuentra en construción, la documentación podria no estar actualizada.
 
