@@ -1,6 +1,6 @@
 # Manual de Usuario de Robot Devastation
 
-![Robot Devastation Logo](../assets/125px-Rd.png)
+![Robot Devastation Logo](../assets/robotDevastation-125px.png)
 
 Bienvenido al manual de usuario de Robot Devastation. En este manual damos unas guías para empezar desde cero con [Robot Devastation](http://asrob.uc3m.es/index.php/Robot_Devastation).
 
