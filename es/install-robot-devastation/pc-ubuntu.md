@@ -9,7 +9,7 @@ sudo apt install qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qtdeclarative5
 sudo apt install libjpeg8-dev  # Sólo necesario para mjpeg que acelera comunicaciones de vídeo
 sudo apt install libopencv-dev  # Sólo necesario para webcam del PC
 git clone https://github.com/robotology/yarp
-cd yarp; mkdir build; cd build
+cd yarp && mkdir -p build && cd build
 cmake ..
 cmake .. -DCREATE_GUIS=ON  # Sólo necesario para YARP GUIs de depuración: yarpview, gyarpmanager
 cmake .. -DCREATE_OPTIONAL_CARRIERS=ON -DENABLE_yarpcar_mjpeg_carrier=ON  # Sólo necesario para mjpeg que acelera comunicaciones de vídeo
@@ -17,7 +17,7 @@ cmake .. -DCREATE_DEVICE_LIBRARY_MODULES=ON -DENABLE_yarpmod_opencv_grabber=ON  
 make -j$(nproc) && sudo make install && sudo ldconfig
 cd  # va a $HOME
 git clone https://github.com/asrob-uc3m/robotDevastation.git  # Descarga Robot Devastation
-cd robotDevastation && mkdir build && cd build && cmake ..  # Configura Robot Devastation
+cd robotDevastation && mkdir -p build && cd build && cmake ..  # Configura Robot Devastation
 make -j$(nproc)  # Compila
 sudo make install  # Instala :-)
 sudo ldconfig  # Por si acaso... ;-)
