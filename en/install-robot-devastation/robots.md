@@ -1,6 +1,6 @@
 # Install Robot Devastation - Robots
 
-Assumes you have previously done [Install Robot Devastation - PC](install-robot-devastation-ubuntu---pc.md).
+Assumes you have previously done [Install Robot Devastation - PC](pc-ubuntu.md).
 
 These instructions should work for most versions of Ubuntu. Open a terminal (in Ubuntu 10.04 - 16.04 and other distributions, you can access a console through the combination of the three keys `CTRL` `ALT` `t`) and execute (type `enter` after each line, Accepting everything and entering password when requested):
 
@@ -20,3 +20,4 @@ sudo ldconfig # Just in case... ;-)
 ```
 
     Note: you can find Wiring Pi website (for Rd Ambassador) here: http://wiringpi.com/download-and-install/
+
