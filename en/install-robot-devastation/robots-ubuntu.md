@@ -1,6 +1,6 @@
 # Install Robot Devastation - Robots
 
-Assumes you have previously done [Install Robot Devastation - PC](pc-ubuntu.md).
+First, install YARP as explained in [Install Robot Devastation - PC](pc-ubuntu.md).
 
 These instructions should work for most versions of Ubuntu. Open a terminal (in Ubuntu 14.04 - 16.04 and other distributions, you can access a console through the combination of the three keys `CTRL` `ALT` `t`) and execute (type `enter` after each line, Accepting everything and entering password when requested):
 
