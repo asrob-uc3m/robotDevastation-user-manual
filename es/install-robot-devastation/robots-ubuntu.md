@@ -6,7 +6,7 @@ Estas instrucciones deberían servir para la mayoría de versiones de Ubuntu. Ab
 
 ```bash
 cd  # va a $HOME
-git clone git://git.drogon.net/wiringPi # Para módulos Raspi (activados por defecto)
+git clone git://git.drogon.net/wiringPi # Varios dispositivos Raspi utilizan http://wiringpi.com/download-and-install/
 cd wiringPi
 ./build
 cd  # va a $HOME

@@ -7,7 +7,7 @@ These instructions should work for most versions of Ubuntu. Open a terminal (in 
 Install robotDevastation-robots
 ```bash
 cd  # go $HOME
-git clone git://git.drogon.net/wiringPi # For Raspi modules (default to activated)
+git clone git://git.drogon.net/wiringPi # Several Raspi devices use http://wiringpi.com/download-and-install/
 cd wiringPi
 ./build
 cd  # go $HOME
@@ -18,6 +18,4 @@ make # Compile
 sudo make install # Install :-)
 sudo ldconfig # Just in case... ;-)
 ```
-
-    Note: you can find Wiring Pi website (for Rd Ambassador) here: http://wiringpi.com/download-and-install/
 
