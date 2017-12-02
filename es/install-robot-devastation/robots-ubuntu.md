@@ -10,7 +10,7 @@ git clone git://git.drogon.net/wiringPi # Para módulos Raspi (activados por def
 cd wiringPi
 ./build
 cd  # va a $HOME
-sudo apt install libserial-dev libboost-all-dev # Para LaserTowerOfDeathController
+sudo apt install libserial-dev libboost-all-dev # Varios dispositivos dependen de libserial
 git clone https://github.com/asrob-uc3m/robotDevastation-robots.git # Descarga Robot Devastation - Robots
 cd robotDevastation-robots && mkdir build && cd build && cmake .. # Configura Robot Devastation - Robots
 make # Compila
