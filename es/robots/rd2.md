@@ -1,7 +1,6 @@
-![RD2-800px.jpg](../../assets/RD2-800px.jpg)
+# RD2
 
-Atención: RD2 se encuentra en construción, la documentación podria no
-estar actualizada.
+![RD2-800px.jpg](../../assets/RD2-800px.jpg)
 
 El robot RD2 es el de la figura. Dispone de los siguientes elementos.
 (Actualizar lista de componentes)
