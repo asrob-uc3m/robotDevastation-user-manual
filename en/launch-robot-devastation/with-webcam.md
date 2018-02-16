@@ -15,12 +15,12 @@ rdServer
 In another new terminal, run:
 
 ```bash
-robotDevastation --mockRobotManager --yarpLocalImageManager
+robotDevastation --fakeRobotManager --yarpLocalImageManager
 ```
 
 This command with the experimental full-screen mode would be:
 
 ```bash
-robotDevastation --mockRobotManager --yarpLocalImageManager --fullscreen
+robotDevastation --fakeRobotManager --yarpLocalImageManager --fullscreen
 ```
 
