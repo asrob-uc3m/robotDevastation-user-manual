@@ -8,7 +8,7 @@ RD software is designed around YARP. In case you installed a recent version of V
 
 ## Download and compile ACE from sources
 
-YARP communications rely on [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Download the latest *micro* release of ACE from [here](http://download.dre.vanderbilt.edu/), TAO is not required. Follow the instructions at [Building and Installing ACE on Windows with Microsoft Visual Studio](http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#msvc). Remember to select the *Release Win32* configuration in VS.
+YARP communications rely on [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Download the latest *micro* release of ACE from [here](http://download.dre.vanderbilt.edu/), TAO is not required. Follow the instructions at [Building and Installing ACE on Windows with Microsoft Visual Studio](http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#msvc). Select either the *Release Win32* or *Release x64* configuration in VS. Remember this choice for later: both the dependencies and the game itself must be compiled in/against the same architecture (Win32/x64).
 
 **Note:** we recommend to launch the *ACE_wrappers* solution (depending on your Visual Studio toolset, you'll choose either *ACE_wrappers_vc12.sln* or *ACE_wrappers_vc14.sln*) instead of *ACE* since the former will prevent you from compiling a lot of binaries you probably won't need, thus reducing the overall build time.
 
@@ -21,11 +21,9 @@ Now, configure the VS project:
 1. Run the CMake GUI application.
 2. Point the *Where is the source code* path to the folder where you have decompressed/cloned YARP.
 3. Point the *Where to build the binaries* path to a `/build` subfolder of the previous directory.
-4. Click on `Configure` and select the corresponding Visual Studio toolset you had installed at the beginning of this guide. If available, don't select the 64-bit option.
+4. Click on `Configure` and select the corresponding Visual Studio toolset you had installed at the beginning of this guide. Pick the architecture option chosen for ACE in the previous section (*Win64* suffix in case of a 64-bit architecture).
 5. Provide the path to your ACE build in the corresponding options: `ACE_INCLUDE_DIR` should point to the *ACE_wrappers* directory (unless renamed), and `ACE_ACE_LIBRARY_RELEASE` to *ACE_wrappers/lib/ACE.lib*.
-6. Click on `Generate` and `Open project` (if your CMake GUI version provides such button) or browse to the build path and click on the Visual Studio solution (look for the *.sln* extension). If you want to install YARP in the default path (*C:\Program Files (x86)*), you'll need to start Visual Studio with administrator privileges, then click on *File>Open*, browse to the build folder and open the *.sln* file.
-
-**Note (fixed in future YARP release v2.3.72):** you might already have a copy of ACE as it's shipped along with YARP's binaries. In that case, CMake will look in the standard search paths and probably pick it over the binaries you compiled in the previous section, thus forcing you to manually type the appropriate paths as values of the *ACE_INCLUDE_DIR*, *ACE_ACE_LIBRARY_RELEASE* and *ACE_ACE_LIBRARY_DEBUG* entries in CMake GUI. However, CMake's cache would still store some persistent variables set as a result of an internal check of available ACE features, which may differ between both copies. We observed that the variable *ACE_HAS_STRING_HASH* would usually spoil the upcoming compilation process if not refreshed to reflect the result of such checks referred to your compiled copy of ACE (as opposed to the one installed along with YARP). To achieve that, remove *ACE_HAS_STRING_HASH* hits from the *CMakeCache.txt* file in your *build* directory and restart CMake GUI (required as it stores its own non-persistent cache). Then, click again on `Configure` and `Generate`.
+6. Click on `Generate` and `Open project` (if your CMake GUI version provides such button) or browse to the build path and click on the Visual Studio solution (look for the *.sln* extension). If you want to install YARP in the default path (*C:\Program Files* or *C:\Program Files (x86)*), you'll need to start Visual Studio with administrator privileges, then click on *File>Open*, browse to the build folder and open the *.sln* file.
 
 In Visual Studio, select the *Release* configuration and compile the solution. To install YARP (not obligatory), compile the *INSTALL* project from the project explorer.
 
@@ -36,7 +34,7 @@ RD depends on the following libraries:
 * [SDL_image 2.0](https://www.libsdl.org/projects/SDL_image/)
 * [SDL_mixer 2.0](https://www.libsdl.org/projects/SDL_mixer/)
 * [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/)
-* [ZBar](http://zbar.sourceforge.net/) ([download link](https://sourceforge.net/projects/zbar/files/latest/download), [asrob-uc3m mirror](https://github.com/asrob-uc3m/ZBar/releases/latest))
+* [ZBar](http://zbar.sourceforge.net/) ([download link (32-bit only)](https://sourceforge.net/projects/zbar/files/latest/download), [asrob-uc3m mirror](https://github.com/asrob-uc3m/ZBar/releases/latest))
 
 Unzip/install these libraries in the locations of your choice, you'll need these paths later on.
 
@@ -58,4 +56,4 @@ ZBar is shipped with an outdated *zlib1.dll* library, a more recent one can be f
 
 If unzipping all SDL2 stuff to the same location (i.e. all headers go to a common `include` directory, DLLs to `lib` and so on), make sure that you always keep the most recent version when prompted to choose between files with the same name. This is motivated by another clash between different versions of *zlib1.dll* used by SDL2 projects (image and ttf).
 
-In addition, *official* ZBar binaries are compiled for 32-bit architectures. Thus, we did not recommend a 64-bit build in previous steps. If you want to achieve it anyway, you can download the corresponding installer from our [GitHub mirror](https://github.com/asrob-uc3m/ZBar/releases/latest).
+In addition, *official* ZBar binaries are compiled for 32-bit architectures only. In order to achieve a 64-bit build, you need to download the corresponding installer from our [GitHub mirror](https://github.com/asrob-uc3m/ZBar/releases/latest) (available for bot 32-bit and 64-bit archs).
