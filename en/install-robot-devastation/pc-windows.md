@@ -56,4 +56,4 @@ ZBar is shipped with an outdated *zlib1.dll* library, a more recent one can be f
 
 If unzipping all SDL2 stuff to the same location (i.e. all headers go to a common `include` directory, DLLs to `lib` and so on), make sure that you always keep the most recent version when prompted to choose between files with the same name. This is motivated by another clash between different versions of *zlib1.dll* used by SDL2 projects (image and ttf).
 
-In addition, *official* ZBar binaries are compiled for 32-bit architectures only. In order to achieve a 64-bit build, you need to download the corresponding installer from our [GitHub mirror](https://github.com/asrob-uc3m/ZBar/releases/latest) (available for bot 32-bit and 64-bit archs).
+In addition, *official* ZBar binaries are compiled for 32-bit architectures only. In order to achieve a 64-bit build, you need to download the corresponding installer from our [GitHub mirror](https://github.com/asrob-uc3m/ZBar/releases/latest) (available for both 32-bit and 64-bit archs).

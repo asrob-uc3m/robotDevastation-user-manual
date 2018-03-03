@@ -8,7 +8,7 @@ El software de RD está diseñado en torno a YARP. Si has instalado una versión
 
 ## Descargar y compilar ACE desde el código fuente
 
-El protocolo de comunicaciones de YARP está basado en [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Descarga la última release *micro* de ACE desde [aquí](http://download.dre.vanderbilt.edu/), TAO no es necesario. Sigue las instrucciones en [Building and Installing ACE on Windows with Microsoft Visual Studio](http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#msvc). Dentro de Visual Studio, selecciona o bien la configuración *Release Win32*, o bien la *Release x64*. Recuerda esta elección: tanto las dependencies como el propio juego requieren estar compilados en/contra esta la misma arquitectura (Win32/x64).
+El protocolo de comunicaciones de YARP está basado en [ACE](http://www.cs.wustl.edu/~schmidt/ACE.html). Descarga la última release *micro* de ACE desde [aquí](http://download.dre.vanderbilt.edu/), TAO no es necesario. Sigue las instrucciones en [Building and Installing ACE on Windows with Microsoft Visual Studio](http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#msvc). Dentro de Visual Studio, selecciona o bien la configuración *Release Win32*, o bien la *Release x64*. Recuerda esta elección: tanto las dependencias como el propio juego requieren estar compilados en/contra esta misma arquitectura (Win32/x64).
 
 **Nota:** recomendamos lanzar la solución *ACE_wrappers* (en función del toolset de Visual Studio instalado, escogerás *ACE_wrappers_vc12.sln* o *ACE_wrappers_vc14.sln*) en lugar de *ACE* dado que la primera evitará que compiles un gran número de binarios que probablemente no vayas a necesitar, consiguiendo así reducir el tiempo total de compilación.
 
