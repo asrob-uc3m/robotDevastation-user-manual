@@ -63,11 +63,7 @@ USB de la RPi\!\!
 
 ## Instalar Raspbian en SD y rd1-software
 
-Primero, instalar Raspbian (recomendamos 7, Weezy). [Esto es un enlace
-que contiene la descarga de Raspbian 7
-(Wheezy).](http://www.raspberrypi.org/downloads/) [Esto es un enlace a
-cómo cargar Raspbian 7
-(Wheezy).](http://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+Primero, instalar Raspbian (probado en 7, Weezy). [Esto es un enlace que contiene descargas de Raspbian.](https://www.raspberrypi.org/downloads/raspbian/) [Esto es un enlace a cómo cargar distros en Raspi.](http://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 
 Ahora, a instalar el software de RD1 de robotDevastation-robots y configurar el arranque.
 [Esto es un enlace a una guía sobre cómo instalar el software de RD1 sobre Raspbian 7.](http://asrob.uc3m.es/index.php/C%C3%B3mo_instalar_el_software_de_RD1_sobre_Raspbian_7)
