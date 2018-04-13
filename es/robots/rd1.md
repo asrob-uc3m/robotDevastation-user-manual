@@ -70,6 +70,5 @@ cómo cargar Raspbian 7
 (Wheezy).](http://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 
 Ahora, a instalar el software de RD1 de robotDevastation-robots y configurar el arranque.
-[Esto es un enlace a una guía sobre cómo instalar el software de RD1 sobre Raspbian 7.](Cómo_instalar_el_software_de_RD1_sobre_Raspbian_7 "wikilink")
-[Esto es un enlace a una guía sobre cómo configurar el arranque del software de RD1 sobre Raspbian 7.](Cómo_configurar_el_arranque_del_software_de_RD1_sobre_Raspbian_7 "wikilink")
-
+[Esto es un enlace a una guía sobre cómo instalar el software de RD1 sobre Raspbian 7.](http://asrob.uc3m.es/index.php/C%C3%B3mo_instalar_el_software_de_RD1_sobre_Raspbian_7)
+[Esto es un enlace a una guía sobre cómo configurar el arranque del software de RD1 sobre Raspbian 7.](http://asrob.uc3m.es/index.php/C%C3%B3mo_configurar_el_arranque_del_software_de_RD1_sobre_Raspbian_7)
