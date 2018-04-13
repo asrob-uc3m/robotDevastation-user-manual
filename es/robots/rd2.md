@@ -65,15 +65,12 @@ USB de la RPi\!\!
 
 ## Crear SD con Raspbian y robotDevastation-robots/raspi software
 
-Descargar imagen (ocupa entre 7.0 y 8.0
-GiB):
+Descargar imagen (ocupa entre 7.0 y 8.0 GiB):
 
-`wget `<http://asrob.uc3m.es/robotDevastation-robots/2015-05-05-raspbian-wheezy-rd.img>
+`wget http://asrob.uc3m.es/robotDevastation-robots/2015-05-05-raspbian-wheezy-rd.img`
 
 Volcar imagen a SD de 8.0 GiB o más:
 
 `sudo dd bs=4M if=2015-05-05-raspbian-wheezy-rd.img of=/dev/mmcblk0`
 
-Esto sería el nivel básico. Si esto no te llega, aquí tienes: [Crear SD
-con Raspbian y robotDevastation-robots/raspi software (avanzado: de
-cero)](http://asrob.uc3m.es/index.php/Crear_SD_con_Raspbian_y_robotDevastation-robots/raspi_software_(avanzado:_de_cero)).
+Esto sería el nivel básico. Si esto no te llega, aquí tienes: [Crear SD con Raspbian y robotDevastation-robots/raspi software (avanzado: de cero)](http://asrob.uc3m.es/index.php/Crear_SD_con_Raspbian_y_robotDevastation-robots/raspi_software_(avanzado:_de_cero)).
