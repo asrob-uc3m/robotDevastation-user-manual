@@ -76,4 +76,4 @@ Volcar imagen a SD de 8.0 GiB o más:
 
 Esto sería el nivel básico. Si esto no te llega, aquí tienes: [Crear SD
 con Raspbian y robotDevastation-robots/raspi software (avanzado: de
-cero)](Crear_SD_con_Raspbian_y_robotDevastation-robots/raspi_software_\(avanzado:_de_cero\) "wikilink").
+cero)](http://asrob.uc3m.es/index.php/Crear_SD_con_Raspbian_y_robotDevastation-robots/raspi_software_(avanzado:_de_cero)).
