@@ -8,7 +8,7 @@ Estas instrucciones deberían servir para la mayoría de versiones de Ubuntu. Ab
 cd  # va a $HOME
 git clone git://git.drogon.net/wiringPi # Varios dispositivos Raspi utilizan http://wiringpi.com/download-and-install/
 cd wiringPi
-./build
+./build # Puede requerir contraseña de sudo
 cd  # va a $HOME
 sudo apt install libserial-dev # Varios dispositivos dependen de libserial
 git clone https://github.com/asrob-uc3m/robotDevastation-robots.git # Descarga Robot Devastation - Robots
