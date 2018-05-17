@@ -9,7 +9,7 @@ Install robotDevastation-robots
 cd  # go $HOME
 git clone git://git.drogon.net/wiringPi # Several Raspi devices use http://wiringpi.com/download-and-install/
 cd wiringPi
-./build
+./build # May require sudo password
 cd  # go $HOME
 sudo apt install libserial-dev # Several devices depend on libserial
 git clone https://github.com/asrob-uc3m/robotDevastation-robots.git # Download Robot Devastation - Robots
