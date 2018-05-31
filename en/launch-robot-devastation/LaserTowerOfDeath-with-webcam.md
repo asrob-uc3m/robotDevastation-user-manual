@@ -1,6 +1,6 @@
 # Launch Robot Devastation - With LaserTowerOfDeath And PC Webcam
 
-Having followed the PC y and **Robots** installation steps, open a terminal \(on Ubuntu 10.04 - 14.10 and other distributions, a console can be accessed through the combination of the three simultaneous keys `CTRL ALT t`\) and run \(write and press `enter`\):
+Having followed the PC and Robots installation steps, and having a [LaserTowerOfDeath](https://github.com/asrob-uc3m/robotDevastation-robots/tree/develop/laserTowerOfDeath), open a terminal \(on Ubuntu 10.04 - 14.10 and other distributions, a console can be accessed through the combination of the three simultaneous keys `CTRL ALT t`\) and run \(write and press `enter`\):
 
 ```bash
 yarp server
