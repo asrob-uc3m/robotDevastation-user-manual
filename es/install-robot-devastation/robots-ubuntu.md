@@ -11,8 +11,8 @@ cd wiringPi
 ./build # Puede requerir contraseña de sudo
 cd  # va a $HOME
 sudo apt install libserial-dev # Varios dispositivos dependen de libserial
-git clone https://github.com/asrob-uc3m/robotDevastation-robots.git # Descarga Robot Devastation - Robots
-cd robotDevastation-robots && mkdir build && cd build && cmake .. # Configura Robot Devastation - Robots
+git clone https://github.com/asrob-uc3m/yarp-devices # Descarga devices requeridos
+cd yarp-devices && mkdir build && cd build && cmake .. # Configura devices requeridos
 make # Compila
 sudo make install # Instala :-)
 sudo ldconfig # Por si acaso... ;-)
