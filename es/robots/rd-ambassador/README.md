@@ -1,8 +1,8 @@
-# Rd Ambassador
+# RD Ambassador
 ![RdAmbassador front view](../../../assets/RdAmbassador.jpg)
 ![RdAmbassador back view](../../../assets/RdAmbassador_back.jpg)
 
-### Rd Ambassador - Contenidos
+## Rd Ambassador - Contenidos
 * [Propósito](proposito.md)
 * [Diagrama de bloques](diagrama-de-bloques.md)
 * [Lista de Materiales](lista-de-materiales.md)
