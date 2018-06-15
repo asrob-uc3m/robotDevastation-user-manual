@@ -10,7 +10,7 @@ git clone git://git.drogon.net/wiringPi # Varios dispositivos Raspi utilizan htt
 cd wiringPi
 ./build # Puede requerir contraseña de sudo
 cd  # va a $HOME
-sudo apt install libserial-dev # Varios dispositivos dependen de libserial
+sudo apt install libserial-dev # Varios dispositivos dependen de libserial (necesita boost/scoped_ptr.hpp)
 git clone https://github.com/asrob-uc3m/yarp-devices # Descarga devices requeridos
 cd yarp-devices && mkdir build && cd build && cmake .. # Configura devices requeridos
 make # Compila
