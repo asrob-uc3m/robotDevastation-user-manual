@@ -13,6 +13,5 @@
   * [Con un robot remoto](launch-robot-devastation/with-one-robot.md)
   * [Con dos robots  remotos](launch-robot-devastation/with-two-robots.md)
 * [Robots](robots/README.md)
-  * [RD2](robots/rd2.md)
 * [Más avanzado](what-do-i-need.md)
 
