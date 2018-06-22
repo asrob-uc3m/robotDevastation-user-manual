@@ -4,7 +4,6 @@
 * [Install Robot Devastation](install-robot-devastation/README.md)
   * [PC \(Ubuntu\)](install-robot-devastation/pc-ubuntu.md)
   * [PC \(Windows\)](install-robot-devastation/pc-windows.md)
-  * [Robots \(Ubuntu\)](install-robot-devastation/robots-ubuntu.md)
 * [Launch Robot Devastation](launch-robot-devastation/README.md)
   * [Without Any Robot](launch-robot-devastation/without-any-robot.md)
   * [Without Any Robot And With PC Webcam](launch-robot-devastation/with-webcam.md)
