@@ -1,6 +1,6 @@
 # Instalar Robot Devastation - PC \(Ubuntu\)
 
-Estas instrucciones deberían servir para la mayoría de versiones de Ubuntu. Abre una terminal \(en Ubuntu 14.04 - 16.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`\) y ejecuta \(teclear y `enter` tras cada línea, aceptando todo y entrando contraseña cuando solicitada\):
+Estas instrucciones deberían servir para la mayoría de versiones de Ubuntu. Abre una terminal (en Ubuntu 14.04 - 18.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`) y ejecuta (teclear y `enter` tras cada línea, aceptando todo y entrando contraseña cuando solicitada):
 
 ```bash
 cd  # va a $HOME
@@ -22,6 +22,3 @@ make -j$(nproc)  # Compila
 sudo make install  # Instala :-)
 sudo ldconfig  # Por si acaso... ;-)
 ```
-
-
-
