@@ -1,6 +1,6 @@
 # Lanzar Robot Devastation - Con Laser Tower Of Death y webcam
 
-Habiendo seguido los pasos de instalación en el PC y Robots, y teniendo un [Laser Tower Of Death](https://github.com/asrob-uc3m/laser-tower-of-death), abrir una terminal (en Ubuntu 10.04 - 18.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`) y ejecuta (teclear y `enter`):
+Habiendo seguido los pasos de instalación, y teniendo un [Laser Tower Of Death](https://github.com/asrob-uc3m/laser-tower-of-death) funcional, abrir una terminal (en Ubuntu 10.04 - 18.04 y otras distribuciones, se puede acceder a una consola a través de la combinación de las tres teclas simultáneas `CTRL` `ALT` `t`) y ejecuta (teclear y `enter`):
 
 ```bash
 yarp server
