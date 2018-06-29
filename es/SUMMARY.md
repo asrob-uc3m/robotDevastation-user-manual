@@ -1,6 +1,7 @@
 # Summary
 
 * [Introducción](README.md)
+* [¿Qué es Robot Devastation?](what-is-robot-devastation.md)
 * [Instalar Robot Devastation](install-robot-devastation/README.md)
   * [PC \(Ubuntu\)](install-robot-devastation/pc-ubuntu.md)
   * [PC \(Windows\)](install-robot-devastation/pc-windows.md)
