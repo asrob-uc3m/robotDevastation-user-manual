@@ -29,5 +29,3 @@ This command with the experimental full-screen mode would be:
 ```bash
 robotDevastation --robotName laserTowerOfDeath --yarpLocalImageManager --fullscreen
 ```
-
-
