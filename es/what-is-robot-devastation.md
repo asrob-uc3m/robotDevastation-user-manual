@@ -1,6 +1,6 @@
-# What is Robot Devastation?
-Robot Devastation is an Augmented Reality (AR) game that emulates robot combats.
+# ¿Qué es Robot Devastation?
+Robot Devastation es un juego de Realidad Aumentada (AR) que emula combates de robots.
 
 ![Mockup of a future governed by horrible human-killer robots](../assets/rd-mockup.png)
 
-The player assumes the role of the robot pilot, as if he were sitting inside the robot cockpit, and battles against other robots. Weapons and projectiles, as well as bullets, fire, explosions and damage inflicted to the robots are simulated using AR. This prevents damage to the player, other people around the robots, or the robots themselves, and at the same time it provides engaging gameplay. Virtual Non-Playing Character (NPC) autonomous robots can be added to balance teams or to increase game difficulty.
+El jugador asume el papel del piloto robot, como si estuviera sentado dentro de la cabina del robot, y lucha contra otros robots. Armas y proyectiles, así como balas, fuego, explosiones y daños infligidos a los robots son simulados usando AR. Esto evita el daño al jugador, a otras personas alrededor de los robots, o a los propios robots, y al mismo tiempo proporciona un juego atractivo. Se pueden agregar robots autónomos virtuales de personajes que no juegan (NPC) para equilibrar equipos o para aumentar la dificultad del juego.
