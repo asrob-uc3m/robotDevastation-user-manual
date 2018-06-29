@@ -12,4 +12,3 @@
   * [Con LaserTowerOfDeath y webcam](launch-robot-devastation/LaserTowerOfDeath-with-webcam.md)
   * [Con un robot remoto](launch-robot-devastation/with-one-robot.md)
   * [Con dos robots  remotos](launch-robot-devastation/with-two-robots.md)
-* [Más avanzado](what-do-i-need.md)
