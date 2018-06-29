@@ -1,6 +1,6 @@
-# Install Robot Devastation - PC \(Ubuntu\)
+# Install Robot Devastation - PC (Ubuntu)
 
-These instructions should work for most versions of Ubuntu. Open a terminal \(in Ubuntu 14.04 - 16.04 and other distributions, you can access a console through the combination of the three keys `CTRL` `ALT` `t`\) and execute \(type `enter` after each line, accepting everything and entering password when requested\):
+These instructions should work for most versions of Ubuntu. Open a terminal (in Ubuntu 14.04 - 18.04 and other distributions, you can access a console through the combination of the three keys `CTRL` `ALT` `t`) and execute (type `enter` after each line, accepting everything and entering password when requested):
 
 ```bash
 cd  # go $HOME
@@ -21,8 +21,4 @@ git clone https://github.com/asrob-uc3m/robotDevastation.git  # Download Robot D
 cd robotDevastation && mkdir -p build && cd build && cmake ..  # Configure Robot Devastation
 make -j$(nproc)  # Compile
 sudo make install  # Install :-)
-sudo ldconfig  # Just in case... ;-)
 ```
-
-
-
