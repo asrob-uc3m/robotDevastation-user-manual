@@ -9,12 +9,27 @@ sudo apt install cmake cmake-curses-gui libzbar-dev libsdl2-dev libsdl2-image-de
 sudo apt install qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qtdeclarative5-qtquick2-plugin qtdeclarative5-window-plugin qtdeclarative5-qtmultimedia-plugin qtdeclarative5-controls-plugin qtdeclarative5-dialogs-plugin libqt5svg5
 sudo apt install libjpeg8-dev  # Only required for mjpeg that should improve video comms
 sudo apt install libopencv-dev  # Only required for PC webcam
+git clone https://github.com/robotology/ycm
+cd ycm && mkdir build && cd build
+cmake ..
+make -j$(nproc) && sudo make install
+cd  # go $HOME
 git clone https://github.com/robotology/yarp
-cd yarp && mkdir -p build && cd build
+cd yarp && mkdir build && cd build
 cmake ..
 cmake .. -DCREATE_GUIS=ON  # Only required for YARP debug GUIs: yarpview, gyarpmanager
 cmake .. -DCREATE_OPTIONAL_CARRIERS=ON -DENABLE_yarpcar_mjpeg_carrier=ON  # Only required for mjpeg that should improve video comms
 cmake .. -DCREATE_DEVICE_LIBRARY_MODULES=ON -DENABLE_yarpmod_opencv_grabber=ON  # Only required for PC webcam
+make -j$(nproc) && sudo make install && sudo ldconfig
+cd  # go $HOME
+git clone https://github.com/roboticslab-uc3m/color-debug
+cd color-debug && mkdir build && cd build
+cmake ..
+make && sudo make install
+cd  # go $HOME
+git clone https://github.com/asrob-uc3m/yarp-devices asrob-yarp-devices
+cd asrob-yarp-devices && mkdir build && cd build
+cmake ..
 make -j$(nproc) && sudo make install && sudo ldconfig
 cd  # go $HOME
 git clone https://github.com/asrob-uc3m/robotDevastation.git  # Download Robot Devastation
