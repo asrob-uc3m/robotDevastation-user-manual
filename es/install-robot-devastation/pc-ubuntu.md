@@ -18,7 +18,7 @@ git clone https://github.com/robotology/yarp
 cd yarp && mkdir build && cd build
 cmake ..
 cmake .. -DCREATE_GUIS=ON  # Sólo necesario para YARP GUIs de depuración: yarpview, gyarpmanager
-cmake .. -DCREATE_OPTIONAL_CARRIERS=ON -DENABLE_yarpcar_mjpeg_carrier=ON  # Sólo necesario para mjpeg que acelera comunicaciones de vídeo
+cmake .. -DCREATE_OPTIONAL_CARRIERS=ON -DENABLE_yarpcar_mjpeg=ON  # Sólo necesario para mjpeg que acelera comunicaciones de vídeo
 cmake .. -DCREATE_DEVICE_LIBRARY_MODULES=ON -DENABLE_yarpmod_opencv_grabber=ON  # Sólo necesario para webcam del PC
 make -j$(nproc) && sudo make install && sudo ldconfig
 cd  # va a $HOME
