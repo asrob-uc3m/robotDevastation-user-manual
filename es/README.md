@@ -4,5 +4,13 @@
 
 Bienvenido al manual de usuario de [Robot Devastation](http://asrob-uc3m.github.io/workgroups/2017-05-28-robot-devastation.html).
 
-- [GitBook](https://legacy.gitbook.com/book/asrob-uc3m/robotdevastation-user-manual) ([READ](https://asrob-uc3m.gitbooks.io/robotdevastation-user-manual/content/es/))
-- [GitHub](https://github.com/asrob-uc3m/robotdevastation-user-manual) ([SUMMARY (índice)](https://github.com/asrob-uc3m/robotdevastation-user-manual/blob/master/es/SUMMARY.md))
+Pincha en la opción que quieras, o utiliza las flechas para avanzar secuencialmente
+
+### Si tienes dudas con respecto al contenido
+
+Por favor comenta de forma pública [AQUÍ](https://github.com/asrob-uc3m/robotDevastation-user-manual/issues/new)
+
+### Notas adicionales
+
+* También puedes descargarte este manual en diversos formatos: [pdf](https://legacy.gitbook.com/download/pdf/book/asrob-uc3m/robotDevastation-user-manual), [mobi](https://legacy.gitbook.com/download/mobi/book/asrob-uc3m/robotDevastation-user-manual), [epub](https://legacy.gitbook.com/download/epub/book/asrob-uc3m/robotDevastation-user-manual)
+* El contenido de este manual se genera a partir de ficheros alojados en [GitHub](https://github.com/asrob-uc3m/robotDevastation-user-manual)
