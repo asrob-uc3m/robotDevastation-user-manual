@@ -12,5 +12,5 @@ Please comment publicly [HERE](https://github.com/asrob-uc3m/robotDevastation-us
 
 ### Additional notes
 
-* You can also download this manual in various formats: [pdf](https://legacy.gitbook.com/download/pdf/book/asrob-uc3m/robotDevastation-user-manual?lang=en), [mobi](https://legacy.gitbook.com/download/mobi/book/asrob-uc3m/robotDevastation-user-manual?lang=en), [epub](https://legacy.gitbook.com/download/epub/book/asrob-uc3m/robotDevastation-user-manual?lang=en)
-* The content of this manual is generated from files hosted on [GitHub](https://github.com/asrob-uc3m/robotDevastation-user-manual)
+* You can also download this documentation in various formats: [pdf](https://legacy.gitbook.com/download/pdf/book/asrob-uc3m/robotDevastation-user-manual?lang=en), [mobi](https://legacy.gitbook.com/download/mobi/book/asrob-uc3m/robotDevastation-user-manual?lang=en), [epub](https://legacy.gitbook.com/download/epub/book/asrob-uc3m/robotDevastation-user-manual?lang=en)
+* The content of this documentation is generated from files hosted on [GitHub](https://github.com/asrob-uc3m/robotDevastation-user-manual)
